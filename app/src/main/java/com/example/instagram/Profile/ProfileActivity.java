@@ -26,8 +26,9 @@ import java.util.ArrayList;
 
 
 public class ProfileActivity extends AppCompatActivity {
-        private static final String TAG="ProfileActivity";
+    private static final String TAG="ProfileActivity";
     private static final int ACTIVITY_NUM=4;
+    private static final int NUM_GRID_COLUMNS=3;
     ImageView profileMenu;
     Toolbar toolbar;
     private final Context mContext=ProfileActivity.this;
@@ -56,10 +57,22 @@ public class ProfileActivity extends AppCompatActivity {
         imgURLs.add("https://st2.depositphotos.com/2001755/5408/i/450/depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg");
         imgURLs.add("https://mrkp-static-production.themarkup.org/uploads/2020/03/photos-841x473.jpg");
         imgURLs.add("https://mrkp-static-production.themarkup.org/uploads/2020/03/photos-841x473.jpg");
+        imgURLs.add("https://st2.depositphotos.com/2001755/5408/i/450/depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg");
+        imgURLs.add("https://mrkp-static-production.themarkup.org/uploads/2020/03/photos-841x473.jpg");
+        imgURLs.add("https://mrkp-static-production.themarkup.org/uploads/2020/03/photos-841x473.jpg");
+        imgURLs.add("https://st2.depositphotos.com/2001755/5408/i/450/depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg");
+        imgURLs.add("https://mrkp-static-production.themarkup.org/uploads/2020/03/photos-841x473.jpg");
+        imgURLs.add("https://st2.depositphotos.com/2001755/5408/i/450/depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg");
+        imgURLs.add("https://mrkp-static-production.themarkup.org/uploads/2020/03/photos-841x473.jpg");
+        imgURLs.add("https://mrkp-static-production.themarkup.org/uploads/2020/03/photos-841x473.jpg");
+        imgURLs.add("https://st2.depositphotos.com/2001755/5408/i/450/depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg");
+        imgURLs.add("https://mrkp-static-production.themarkup.org/uploads/2020/03/photos-841x473.jpg");
+        imgURLs.add("https://mrkp-static-production.themarkup.org/uploads/2020/03/photos-841x473.jpg");
+        imgURLs.add("https://st2.depositphotos.com/2001755/5408/i/450/depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg");
         imgURLs.add("https://mrkp-static-production.themarkup.org/uploads/2020/03/photos-841x473.jpg");
         imgURLs.add("https://mrkp-static-production.themarkup.org/uploads/2020/03/photos-841x473.jpg");
         imgURLs.add("https://mrkp-static-production.themarkup.org/uploads/2020/03/photos-841x473.jpg");
-        imgURLs.add("https://mrkp-static-production.themarkup.org/uploads/2020/03/photos-841x473.jpg");
+        imgURLs.add("https://st2.depositphotos.com/2001755/5408/i/450/depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg");
         imgURLs.add("https://mrkp-static-production.themarkup.org/uploads/2020/03/photos-841x473.jpg");
 
 
@@ -68,6 +81,10 @@ public class ProfileActivity extends AppCompatActivity {
 
     private void setupImageGrid(ArrayList<String> imgURLs){
         GridView gridView=(GridView) findViewById(R.id.gridView);
+
+        int gridWidth=getResources().getDisplayMetrics().widthPixels;
+        int imageWidth=gridWidth/NUM_GRID_COLUMNS;
+        gridView.setColumnWidth(imageWidth);
 
         GridImageAdapter adapter=new GridImageAdapter(mContext, R.layout.layout_grid_imageview, "", imgURLs);
         gridView.setAdapter(adapter);
