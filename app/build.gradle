@@ -42,4 +42,11 @@ dependencies {
     //Bottom navigation viewEx library
     implementation 'com.github.ittianyu:BottomNavigationViewEx:2.0.0'
     //implementation 'com.android.support:design:28.0.0'
+
+    // android circle image view
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    //Universal image loader
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+
 }

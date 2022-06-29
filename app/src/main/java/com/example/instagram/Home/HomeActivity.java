@@ -10,13 +10,14 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.SectionIndexer;
-import android.widget.TableLayout;
 
 import com.example.instagram.R;
 import com.example.instagram.Utils.BottomNavigationViewHelper;
+import com.example.instagram.Utils.SactionsPagerAdapter;
+import com.example.instagram.Utils.UniversalImageLoader;
 import com.google.android.material.tabs.TabLayout;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
+import com.nostra13.universalimageloader.core.ImageLoader;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -30,10 +31,17 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         Log.d(TAG, "onCreate: starting.");
 
-        getSupportActionBar().hide();
+        initImageLoader();
+        //getSupportActionBar().hide();
         setupBottomNavigationView();
         setupViewPager();
     }
+
+    private void initImageLoader(){
+        UniversalImageLoader universalImageLoader= new UniversalImageLoader(mContext);
+        ImageLoader.getInstance().init(universalImageLoader.getConfig());
+    }
+
 
     /*
     Responsible for adding 3 tabs: Camera, Home, Messages

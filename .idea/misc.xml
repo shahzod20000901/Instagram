@@ -3,16 +3,33 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/drawable-xhdpi/black_border.xml" value="0.1625" />
+        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/drawable-xhdpi/grey_border.xml" value="0.1625" />
+        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/drawable/grey_border_bottom.xml" value="0.1625" />
         <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/drawable/white_grey_border_bottom.xml" value="0.1" />
         <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/drawable/white_grey_border_top.xml" value="0.1585" />
+        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/activity_accountsettings.xml" value="0.19488817891373802" />
         <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/activity_home.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/activity_profile.xml" value="0.271875" />
         <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/fragment_camera.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/fragment_editprofile.xml" value="0.2608695652173913" />
         <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/fragment_home.xml" value="0.271875" />
         <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/fragment_messages.xml" value="0.27291666666666664" />
-        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/layout_bottom_navigation_view.xml" value="0.15306122448979592" />
-        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/layout_center_viewpager.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/fragment_signout.xml" value="0.2608695652173913" />
+        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/layout_bottom_navigation_view.xml" value="0.33" />
+        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/layout_center_accountsettings.xml" value="0.2089041095890411" />
+        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/layout_center_profile.xml" value="0.25" />
+        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/layout_center_viewpager.xml" value="0.25" />
+        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/layout_centere_profile.xml" value="0.2608695652173913" />
+        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/layout_grid_imageview.xml" value="0.23529411764705882" />
         <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/layout_top_tabs.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/snippet_center_editprofile.xml" value="0.25" />
+        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/snippet_top_accountsettingstoolbar.xml" value="0.33" />
+        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/snippet_top_editprofiletoolbar.xml" value="0.2608695652173913" />
+        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/snippet_top_profile.xml" value="0.25" />
+        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/layout/snippet_top_profilebar.xml" value="0.22" />
         <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/kudra/AndroidStudioProjects/Instagram/app/src/main/res/menu/profile_menu.xml" value="0.271875" />
       </map>
     </option>
   </component>

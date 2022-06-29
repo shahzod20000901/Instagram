@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.instagram">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -26,6 +28,7 @@
         <activity android:name=".Profile.ProfileActivity"></activity>
         <activity android:name=".Search.SearchActivity"></activity>
         <activity android:name=".Share.ShareActivity"></activity>
+        <activity android:name=".Profile.AccountSettingsActivity"></activity>
     </application>
 
 </manifest>

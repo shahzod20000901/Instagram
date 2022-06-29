@@ -23,7 +23,7 @@ private Context mContext=ShareActivity.this;
         setContentView(R.layout.activity_home);
         Log.d(TAG, "onCreate: started.");
 
-        getSupportActionBar().hide();
+        //getSupportActionBar().hide();
         setupBottomNavigationView();
 
     }
